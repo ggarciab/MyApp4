@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.google.myapp4.MainActivity">
+
+    <ImageView android:id="@+id/img1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/img1"/>
+
+    <EditText android:id="@+id/etext1"
+        android:hint="Nombres:"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText android:id="@+id/etext2"
+        android:hint="Apellidos:"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText android:id="@+id/etext3"
+        android:hint="DNI:"
+        android:inputType="number"
+        android:maxLength="8"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText android:id="@+id/etext4"
+        android:hint="Celular:"
+        android:inputType="number"
+        android:maxLength="9"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_height="wrap_content" />
+
+    <EditText android:id="@+id/etext5"
+        android:hint="Dirección:"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_height="wrap_content" />
+
+    <Button android:id="@+id/boton1"
+        android:text="Guardar"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
